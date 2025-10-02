@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
+       <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="w-full bg-gray-100 p-6">
     <div
@@ -12,8 +12,11 @@
       <div class="flex-none">
         <img src="goldsmith.svg" alt="Goldsmiths Logo" class="h-12" />
       </div>
+      <div class="flex flex-col items-end to-0%"></div>>
+  <img src="headerleftside.svg" alt="Graduation Hut" class="h-12 mb-0" />
+      </div>
       <div class="flex flex-col items-end">
-        <img src="headerleftside.svg" alt="Graduation Hut" class="h-12 mb-0" />
+      
         <nav class="flex gap-4 text-2xl">
           <a href="#" class="hover:bg-neutral-700">Study</a>
           <a href="#" class="hover:bg-neutral-700">Course finder</a>
@@ -26,57 +29,124 @@
       </div>
     </div>
     <section>
-      <div class="relative inline-block">
-        <img src="blue image.svg" alt="Background" class="w-auto" />
-        <div
-          class="absolute inset-0 flex items-start justify-start text-black text-3xl font-extrabold mr-5"
-        >
-          <span>Different is <br />what we do</span><br />
-        </div>
-        <div
-          class="absolute inset-16 items-start justify-start text-black text-xl font-semibold"
-        >
-          <span>Discover our exciting <br />degrees</span><br /><br />
-          <button class="bg-white w-60 text-xl border-8 shadow-2xl">
-            Course finder</button
-          ><br />
-          <br />
+     <div class="relative w-full max-w-7xl mx-auto z-0">
+  <img src="blue image.svg" alt="Background" class="w-full h-auto" />
+  <div class="absolute top-1/4 left-16 flex flex-col space-y-6 max-w-md">
+    <h1 class="text-4xl font-extrabold text-black leading-tight">
+      Different is <br />what we do
+    </h1>
+    <p class="text-xl font-semibold text-black">
+      Discover our exciting <br />degrees
+    </p>
+    <div class="flex flex-col space-y-4">
+      <button class="bg-white text-xl font-semibold py-3 px-6 shadow-lg transition">
+        Course Finder
+      </button>
+      <button class="bg-white text-xl font-semibold py-3 px-6 shadow-lg transition">
+        Autumn Events
+      </button>
+    </div>
+  </div>
 
-          <button class="bg-white w-60 text-xl border-8 shadow-2xl">
-            Autumn Events
-          </button>
-        </div>
-        <div
-          class="absolute items-end justify-end -inset-y-28 ml-96 mt-60 mr-80"
-        >
-          <img
-            src="workinggirl.jpeg"
-            alt="Walking Girl"
-            class="w-2xl h-56 inset-2 mb-32"
-          />
-        </div>
-      </div>
-      <div class="flex">
-        <div class="flex-none">
-          <img src="SEARCH.svg" alt="Large Search Icon" />
-          <p>Search Our Case</p>
-        </div>
-        <div class="flex-none gap-11">
-          <img src="open days.svg" alt="Open Days" />
-          <p>Open Days and visits</p>
-        </div>
-        <div class="flex-none gap-11">
-          <img src="accom.svg" alt="Accomodation" />
-          <p>Accomodation options</p>
-        </div>
-        <div class="flex-none gap-11">
-          <img src="message.svg" alt="chats" />
-          <p>Chats with our students</p>
-        </div>
-      </div>
-    </section>
-    <button class="bg-blue-500 hover:bg-red-500 text-white px-4 py-2 rounded">
-      Hover me
+<div class="absolute top-0 right-0 bottom-0 z-10">
+  <img src="workinggirl.jpeg" alt="Walking Girl" 
+       class="h-full w-auto object-cover" />
+</div>
+
+</div>
+
+      <div class="flex justify-center gap-8 p-8">
+  <div class="flex flex-col items-center bg-white p-6
+              cursor-pointer transform transition duration-300 
+              hover:scale-105 hover:bg-neutral-700 hover:text-white">
+    <img src="SEARCH.svg" alt="Large Search Icon" class="h-32 w-72 mb-2" />
+    <p class="text-center font-medium">Search Our Case</p>
+  </div>
+  <div class="flex flex-col items-center bg-white p-6 
+              cursor-pointer transform transition duration-300 
+              hover:scale-105 hover:bg-neutral-700 hover:text-white">
+    <img src="open days.svg" alt="Open Days" class="h-32 w-72 mb-2" />
+    <p class="text-center font-medium">Open Days and Visits</p>
+  </div>
+  <div class="flex flex-col items-center bg-white p-6 
+              cursor-pointer transform transition duration-300 
+              hover:scale-105 hover:bg-neutral-700 hover:text-white">
+    <img src="accom.svg" alt="Accommodation" class="h-32 w-72 mb-2" />
+    <p class="text-center font-medium">Accommodation Options</p>
+  </div>
+
+  <div class="flex flex-col items-center bg-white p-6  
+              cursor-pointer transform transition duration-300 
+              hover:scale-105 hover:bg-neutral-700 hover:text-white">
+    <img src="message.svg" alt="Chats" class="h-32 w-72 mb-2" />
+    <p class="text-center font-medium">Chats with Our Students</p>
+  </div>
+</div>
+ <div class="flex flex-col md:flex-row items-center gap-8 p-8">
+  <div class="flex-none max-w-md space-y-4">
+    <h1 class="text-5xl font-bold text-neutral-700">Clearing 2025</h1>
+    <p class="text-lg leading-relaxed">
+      There's still time to join Goldsmiths this autumn term. Explore our undergraduate courses 
+      and discover what Goldsmiths has to offer.
+    </p>
+    <button class="bg-amber-800 text-white px-6 py-3  shadow-md">
+      Apply through Clearing
     </button>
+  </div>
+  <div class="flex-1">
+    <img src="2cheeling girl.jpeg" alt="Cheeling" class="w-full h-auto rounded-lg shadow-lg" />
+  </div>
+</div>
+
+<div class="flex flex-col md:flex-row items-center justify-between   bg-gray-50">
+  <div class="flex flex-col md:flex-row items-start md:items-center gap-4 w-1/2 h-80
+              p-6 shadow-md" 
+       style="background-color: #ffdf6ad8;">
+    
+    <p class="text-lg leading-relaxed text-gray-800">
+      Welcome to our new and returning students joining us for the autumn term. 
+      Find out what you need to know for starting your studies.
+    </p>
+    
+    <button class="bg-white text-black px-6 py-3 font-semibold hover:bg-gray-100 transition">
+      Welcome
+    </button>
+  </div>
+  <div class="flex-1">
+    <img src="studentc.jpeg" alt="Student" class="w-full h-auto  shadow-lg" />
+  </div>
+  
+</div>
+
+<div>
+    
+</div>
+    </section>
+   <footer class="bg-neutral-900 text-neutral-200 p-8">
+  <div class="flex flex-wrap justify-between gap-8 max-w-7xl mx-auto">
+    <div class="flex flex-col space-y-2">
+      <a href="#" class="hover:text-neutral-50">About Us</a>
+      <a href="#" class="hover:text-neutral-50">Contact Us</a>
+      <a href="#" class="hover:text-neutral-50">Find Us</a>
+      <a href="#" class="hover:text-neutral-50">Jobs</a>
+      <a href="#" class="hover:text-neutral-50">Accessibility Statement</a>
+    </div>
+    <div class="flex flex-col space-y-2">
+      <a href="#" class="hover:text-neutral-50">Cookie Use</a>
+      <a href="#" class="hover:text-neutral-50">Copyright and Disclaimer</a>
+      <a href="#" class="hover:text-neutral-50">Slavery and Human Trafficking</a>
+      <a href="#" class="hover:text-neutral-50">Statement</a>
+    </div>
+    <div class="flex flex-col space-y-2">
+      <h1 class="font-bold text-lg">Admin Login</h1>
+      <a href="#" class="hover:text-neutral-50">Login</a>
+    </div>
+    <div class="flex items-center space-x-4">
+      <a href="#"><img src="twiter.png" alt="Twitter" class="h-8 w-8 filter brightness-200" /></a>
+      <a href="#"><img src="tik-tok.png" alt="TikTok" class="h-8 w-8 filter brightness-200" /></a>
+      <a href="#"><img src="youtube.jpeg" alt="YouTube" class="h-8 w-8 filter brightness-200" /></a>
+    </div>
+  </div>
+</footer>
   </body>
 </html>
