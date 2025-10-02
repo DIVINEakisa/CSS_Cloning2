@@ -1,0 +1,23 @@
+{
+  "name": "css_cloning2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DIVINEakisa/CSS_Cloning2.git"
+  },
+  "author": "Divine AKISA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DIVINEakisa/CSS_Cloning2/issues"
+  },
+  "homepage": "https://github.com/DIVINEakisa/CSS_Cloning2#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.14",
+    "tailwindcss": "^4.1.14"
+  }
+}
