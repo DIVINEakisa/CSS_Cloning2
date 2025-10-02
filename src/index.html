@@ -3,9 +3,80 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="./output.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
+  <body class="w-full bg-gray-100 p-6">
+    <div
+      class="flex items-center justify-between bg-white p-4 w-full max-w-6xl mx-auto shadow"
+    >
+      <div class="flex-none">
+        <img src="goldsmith.svg" alt="Goldsmiths Logo" class="h-12" />
+      </div>
+      <div class="flex flex-col items-end">
+        <img src="headerleftside.svg" alt="Graduation Hut" class="h-12 mb-0" />
+        <nav class="flex gap-4 text-2xl">
+          <a href="#" class="hover:bg-neutral-700">Study</a>
+          <a href="#" class="hover:bg-neutral-700">Course finder</a>
+          <a href="#" class="hover:bg-neutral-700">International</a>
+          <a href="#" class="hover:bg-neutral-700">More</a>
+          <a href="#"
+            ><img src="search (2).svg" alt="Search Icon" class="h-4 text-2xl"
+          /></a>
+        </nav>
+      </div>
+    </div>
+    <section>
+      <div class="relative inline-block">
+        <img src="blue image.svg" alt="Background" class="w-auto" />
+        <div
+          class="absolute inset-0 flex items-start justify-start text-black text-3xl font-extrabold mr-5"
+        >
+          <span>Different is <br />what we do</span><br />
+        </div>
+        <div
+          class="absolute inset-16 items-start justify-start text-black text-xl font-semibold"
+        >
+          <span>Discover our exciting <br />degrees</span><br /><br />
+          <button class="bg-white w-60 text-xl border-8 shadow-2xl">
+            Course finder</button
+          ><br />
+          <br />
+
+          <button class="bg-white w-60 text-xl border-8 shadow-2xl">
+            Autumn Events
+          </button>
+        </div>
+        <div
+          class="absolute items-end justify-end -inset-y-28 ml-96 mt-60 mr-80"
+        >
+          <img
+            src="workinggirl.jpeg"
+            alt="Walking Girl"
+            class="w-2xl h-56 inset-2 mb-32"
+          />
+        </div>
+      </div>
+      <div class="flex">
+        <div class="flex-none">
+          <img src="SEARCH.svg" alt="Large Search Icon" />
+          <p>Search Our Case</p>
+        </div>
+        <div class="flex-none gap-11">
+          <img src="open days.svg" alt="Open Days" />
+          <p>Open Days and visits</p>
+        </div>
+        <div class="flex-none gap-11">
+          <img src="accom.svg" alt="Accomodation" />
+          <p>Accomodation options</p>
+        </div>
+        <div class="flex-none gap-11">
+          <img src="message.svg" alt="chats" />
+          <p>Chats with our students</p>
+        </div>
+      </div>
+    </section>
+    <button class="bg-blue-500 hover:bg-red-500 text-white px-4 py-2 rounded">
+      Hover me
+    </button>
   </body>
 </html>
